@@ -6,6 +6,9 @@ Class WeatherModel {
   String weatherState;
   String weatherStateIcon;
 WeatherModel({
-  required this.
+  required this.date,
+  required this.temp,
+  required this.maxTemp,
+  required this.minTemp,
 })
 }
